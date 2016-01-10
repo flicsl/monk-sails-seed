@@ -1,0 +1,1 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("commons/something.html","\n<div class=\"element\"></div>");}]);

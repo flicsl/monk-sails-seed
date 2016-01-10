@@ -11,27 +11,7 @@
     "sails-disk": "~0.10.0"
   },
   "devDependencies": {
-    "browser-sync": "*",
-    "coffee-script": "*",
-    "gulp": "*",
-    "gulp-angular-templatecache": "*",
-    "gulp-coffee": "*",
-    "gulp-concat": "*",
-    "gulp-html-replace": "*",
-    "gulp-if": "*",
-    "gulp-inject": "*",
-    "gulp-jade": "*",
-    "gulp-minify-css": "*",
-    "gulp-ng-annotate": "*",
-    "gulp-ng-constant": "*",
-    "gulp-plumber": "*",
-    "gulp-replace": "*",
-    "gulp-sass": "*",
-    "gulp-uglify": "*",
-    "gulp-util": "*",
-    "gulp-watch": "*",
-    "main-bower-files": "*",
-    "yargs": "*"
+    
   },
   "scripts": {
     "debug": "node debug app.js",
