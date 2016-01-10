@@ -54,6 +54,22 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
+    /*staticMiddleware: function(app) {
+      app.get('', function(req, res) {
+        res.sendFile(path.resolve(__dirname + "/../www/" + req.path));
+      });
+    },
+
+    indexMiddleware: function (app) {
+      app.get('/', function (req, res) {
+        res.sendFile(path.resolve(__dirname + "/../www/index.html"));
+      });
+    }*/
+
+    customMiddleware: function(app){
+       app.use('/www', require('../node_modules/sails/node_modules/express').static('/www'));
+    }
+
     // myRequestLogger: function (req, res, next) {
     //     console.log("Requested :: ", req.method, req.url);
     //     return next();
